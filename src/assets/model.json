@@ -1,0 +1,282 @@
+[
+    {
+        "label": "NPL",
+        "items": [
+            {
+                "label": "หน้าแรก",
+                "icon": "pi pi-fw pi-home",
+                "routerLink": [
+                    "/"
+                ]
+            },
+            {
+                "label": "Import Data",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "Upload File",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "Validation",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "Version Control",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Data Cleansing",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "Borrower",
+                        "icon": "pi pi-fw pi-file",
+                        "routerLink": ["/uikit/menu"],
+                        "preventExact": true
+                    },
+                    {
+                        "label": "Guarantor",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "Loan Contract",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "Collateral",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "Litigation",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "Verification",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Transfer Ownership",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "Collateral",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "Litigation",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "Verification",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "NPL Data",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "Borrower",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "Guarantor",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "Loan Contract",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "ทะเบียนแฟ้มลูกหนี้",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "งานทะเบียนแฟ้มลูกหนี้",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "ควบคุมการยืม-คืนแฟ้มลูกหนี้",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "สอบถามแฟ้มลูกหนี้",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Trouble Debts Restructuring",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "เจรจาปรับโครงสร้างหนี้",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "บันทึกเงื่อนไขการปรับโครงสร้างหนี้",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "อนุมัติการปรับโครงสร้างหนี้",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "ติดตามสถานะการปรับโครงสร้างหนี้",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Debt Collection",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "โอนเข้างานติดตามหนี้",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "กำหนดเจ้าหน้าที่ติดตาม",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "ข้อมูลการค้างชำระ",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "แจ้งเตือนทางจดหมาย",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "แจ้งเตือนทางโทรศัพท์",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "บันทึกข้อมูลการติดตาม",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "สอบถามสถานะ",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Litigation",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "โอนเข้างานเร่งรัดหนี้",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "ออกหนังสือทวงถามหนี้",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "งานส่งฟ้องดำเนินคดี",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "งานขั้นตอนพิจารณาคดี",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "งานพิพากษา",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "งานบังคับคดี",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "สอบถามสถานะ",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Collateral",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "ข้อมูลหลักประกัน",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "บันทึกส่งประเมิน",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "อนุมัติส่งประเมิน",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "บันทึกผลประเมิน",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "อนุมัติผลประเมิน",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "สอบถามสถานะ",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Paying",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "จ่ายด้วยเช็ค",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "จ่ายโดยการโอนผ่านธนาคาร",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "สอบถามยอดค้างจ่าย",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            },
+            {
+                "label": "Receiving Money",
+                "icon": "pi pi-fw pi-upload",
+                "items": [
+                    {
+                        "label": "รับชำระด้วยเงินสด",
+                        "icon": "pi pi-fw pi-file"
+                    },
+                    {
+                        "label": "รับชำระด้วยเช็ค",
+                        "icon": "pi pi-fw pi-check-circle"
+                    },
+                    {
+                        "label": "รับชำระผ่าน Bill Payment",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "พิมพ์ใบเสร็จ",
+                        "icon": "pi pi-fw pi-tags"
+                    },
+                    {
+                        "label": "สอบถามยอดค้างชำระ",
+                        "icon": "pi pi-fw pi-tags"
+                    }
+                ]
+            }
+        ]
+    }
+]
