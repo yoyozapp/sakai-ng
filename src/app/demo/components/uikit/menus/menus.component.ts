@@ -30,18 +30,14 @@ export class MenusComponent implements OnInit {
 
     ngOnInit() {
         this.breadcrumbItems = [];
-        this.breadcrumbItems.push({ label: 'Electronics' });
-        this.breadcrumbItems.push({ label: 'Computer' });
-        this.breadcrumbItems.push({ label: 'Notebook' });
-        this.breadcrumbItems.push({ label: 'Accessories' });
-        this.breadcrumbItems.push({ label: 'Backpacks' });
-        this.breadcrumbItems.push({ label: 'Item' });
+        this.breadcrumbItems.push({ label: 'Data Cleansing' });
+        this.breadcrumbItems.push({ label: 'Borrower' });
 
         this.routeItems = [
             { label: 'ข้อมูล-1', routerLink: 'personal' },
             { label: 'ข้อมูล-2', routerLink: 'seat' },
             { label: 'ทึ่อยู่', routerLink: 'payment' },
-            { label: 'Confirmation', routerLink: 'confirmation' },
+            { label: 'อาชีพ', routerLink: '' },
         ];
     }
 }
