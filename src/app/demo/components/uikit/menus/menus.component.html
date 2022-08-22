@@ -1,12 +1,14 @@
 <div class="grid p-fluid">
-
     <div class="col-12">
-        <p-breadcrumb [model]="breadcrumbItems" [home]="{icon: 'pi pi-home'}"></p-breadcrumb>
+        <p-breadcrumb
+            [model]="breadcrumbItems"
+            [home]="{ icon: 'pi pi-home' }"
+        ></p-breadcrumb>
     </div>
 
     <div class="col-12">
         <div class="card card-w-title flex flex-column">
-            <div class="col-12 md:col-8 h-full">
+            <div class="col-12 h-full">
                 <p-tabMenu [model]="routeItems"></p-tabMenu>
             </div>
             <div class="col-12">
