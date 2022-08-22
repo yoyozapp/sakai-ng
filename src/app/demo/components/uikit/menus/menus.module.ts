@@ -15,6 +15,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import { StepsModule } from 'primeng/steps';
 import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
 import { FormsModule } from '@angular/forms';
 @NgModule({
