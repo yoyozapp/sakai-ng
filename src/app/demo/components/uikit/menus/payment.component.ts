@@ -33,6 +33,11 @@ import { Component } from '@angular/core';
                     font-weight: 400;
                 }
             }
+            tr:nth-child(odd) {
+                td {
+                    background-color: #eeeeee;
+                }
+            }
         `,
     ],
 })
