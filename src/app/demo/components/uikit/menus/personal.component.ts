@@ -4,22 +4,22 @@ import { Component } from '@angular/core';
     selector: 'app-personal',
     template: `
         <div class="formgrid grid">
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">รหัสอ้างอิง</label>
                 </span>
             </div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">ชื่อบัญชีอ้างอิง</label>
                 </span>
             </div>
             <div
-                class="field hidden md:block col-12 md:col-4 my-4 md:my-3"
+                class="field hidden md:block col-12 md:col-4 mb-4 md:mb-5"
             ></div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <p-dropdown
                         inputId="dropdown"
@@ -31,24 +31,24 @@ import { Component } from '@angular/core';
                 </span>
             </div>
             <div
-                class="field hidden md:block col-12 md:col-8 my-4 md:my-3"
+                class="field hidden md:block col-12 md:col-8 mb-4 md:mb-5"
             ></div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">ชื่อ (TH)</label>
                 </span>
             </div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">นามสกุล (TH)</label>
                 </span>
             </div>
             <div
-                class="field hidden md:block col-12 md:col-4 my-4 md:my-3"
+                class="field hidden md:block col-12 md:col-4 mb-4 md:mb-5"
             ></div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-5">
                 <span class="p-float-label">
                     <p-dropdown
                         inputId="dropdown"
@@ -60,21 +60,21 @@ import { Component } from '@angular/core';
                 </span>
             </div>
             <div
-                class="field hidden md:block col-12 md:col-8 my-4 md:my-3"
+                class="field hidden md:block col-12 md:col-8 mb-4 md:mb-3"
             ></div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-3">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">ชื่อ (EN)</label>
                 </span>
             </div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-3">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">ชื่อกลาง (EN)</label>
                 </span>
             </div>
-            <div class="field col-12 md:col-4 my-4 md:my-3">
+            <div class="field col-12 md:col-4 mb-4 md:mb-3">
                 <span class="p-float-label">
                     <input type="text" id="inputtext" pInputText />
                     <label for="inputtext">นามสกุล (EN)</label>
