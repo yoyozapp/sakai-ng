@@ -15,6 +15,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import { StepsModule } from 'primeng/steps';
 import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
     declarations: [
@@ -46,7 +47,8 @@ import { InputTextModule } from 'primeng/inputtext';
                     { path: 'payment', component: PaymentComponent }
                 ]
             }
-        ])
+        ]),
+        ButtonModule
     ],
     exports: [RouterModule]
 })
