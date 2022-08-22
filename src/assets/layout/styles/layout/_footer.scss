@@ -2,7 +2,14 @@
     transition: margin-left $transitionDuration;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 1rem;
     border-top: 1px solid var(--surface-border);
+}
+
+@media only screen and (max-width: 575px) {
+    .layout-footer {
+        text-align: center;
+        flex-direction: column;
+    }
 }
