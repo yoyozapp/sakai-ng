@@ -15,7 +15,8 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import { StepsModule } from 'primeng/steps';
 import { InputTextModule } from 'primeng/inputtext';
-
+import { DropdownModule } from 'primeng/dropdown';
+import { FormsModule } from '@angular/forms';
 @NgModule({
     declarations: [
         MenusComponent,
@@ -23,7 +24,6 @@ import { InputTextModule } from 'primeng/inputtext';
         ConfirmationComponent,
         PersonalComponent,
         SeatComponent,
-
     ],
     imports: [
         MenuModule,
@@ -36,19 +36,22 @@ import { InputTextModule } from 'primeng/inputtext';
         TabMenuModule,
         ContextMenuModule,
         StepsModule,
+        DropdownModule,
+        FormsModule,
         RouterModule.forChild([
             {
-                path: '', component: MenusComponent, children: [
+                path: '',
+                component: MenusComponent,
+                children: [
                     { path: '', redirectTo: 'personal', pathMatch: 'full' },
                     { path: 'personal', component: PersonalComponent },
                     { path: 'confirmation', component: ConfirmationComponent },
                     { path: 'seat', component: SeatComponent },
-                    { path: 'payment', component: PaymentComponent }
-                ]
-            }
-        ])
+                    { path: 'payment', component: PaymentComponent },
+                ],
+            },
+        ]),
     ],
-    exports: [RouterModule]
+    exports: [RouterModule],
 })
-export class MenusModule { }
-
+export class MenusModule {}
