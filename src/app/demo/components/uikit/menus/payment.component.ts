@@ -5,24 +5,36 @@ import { Component } from '@angular/core';
     template: `
         <p-table [value]="address" styleClass="p-datatable-striped">
             <ng-template pTemplate="header">
-                <tr>
-                    <th>ลำดับ</th>
+                <tr class="head">
+                    <th style="text-align: center;">ลำดับ</th>
                     <th>ประเภทที่อยู่</th>
                     <th>ทึ่อยู่</th>
-                    <th>เบอร์โทรศัพท์</th>
+                    <th style="text-align: center;">เบอร์โทรศัพท์</th>
+                    <th></th>
                 </tr>
             </ng-template>
             <ng-template pTemplate="body" let-address>
                 <tr>
-                    <td>{{ address.position }}</td>
+                    <td style="text-align: center;">{{ address.position }}</td>
                     <td>{{ address.addressType }}</td>
                     <td>{{ address.addresss }}</td>
-                    <td>{{ address.telno }}</td>
+                    <td style="text-align: center;">{{ address.telno }}</td>
                     <td>..</td>
                 </tr>
             </ng-template>
         </p-table>
     `,
+    styles: [
+        `
+            .head {
+                th {
+                    background: #52636f;
+                    color: #fff;
+                    font-weight: 400;
+                }
+            }
+        `,
+    ],
 })
 export class PaymentComponent {
     address: any[] = [
